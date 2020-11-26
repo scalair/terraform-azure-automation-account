@@ -46,3 +46,11 @@ module "automation_account"
     terraform   = "true"
   }
 ```
+
+## Limitations
+
+Maybe modules on which we are based have limitations. Let's check it there :
+
+- [Azure Automation Certificate](https://github.com/scalair/terraform-azure-automation-certificate/)
+- [Azure Automation Connection](https://github.com/scalair/terraform-azure-automation-connection/)
+
