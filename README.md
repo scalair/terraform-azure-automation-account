@@ -19,6 +19,8 @@ It is based on our existing terraform modules related to `Automation Account` :
 
 ```hcl
 module "automation_account"
+  source = "github.com/scalair/terraform-azure-automation-account"
+
   location              = "francecentral"
   resource_group_name   = "rg-project1-francecentral"
   name                  = "aa-testjds-1337"
