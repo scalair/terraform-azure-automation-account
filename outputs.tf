@@ -13,6 +13,11 @@ output "resource_group_name" {
   value       = var.resource_group_name
 }
 
+output "location" {
+  description = "The Automation Account location."
+  value       = var.location
+}
+
 output "endpoint" {
   description = "The DSC Server Endpoint associated with this Automation Account."
   value       = azurerm_automation_account.auto_account.dsc_server_endpoint
